@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:06,000
+My AI just read my whole codebase, found four problems, and fixed the worst one.
+
+2
+00:00:06,000 --> 00:00:14,000
+Not because I pasted the code in. Because I gave it a tool. That tool is called MCP.
+
+3
+00:00:25,000 --> 00:00:40,000
+Every AI model is stuck in a box. It can't see your files, your database, or your tickets.
+
+4
+00:01:20,000 --> 00:01:40,000
+MCP is a standard plug, like USB-C for AI. You write a server once and any app that speaks MCP can use it.
+
+5
+00:02:40,000 --> 00:03:00,000
+A server can offer three things: tools the AI calls, resources it can read, and prompts the user picks.
+
+6
+00:03:30,000 --> 00:04:00,000
+Let's build one. Install the official SDK and zod, create the server, and register a find_todos tool.
+
+7
+00:06:10,000 --> 00:06:40,000
+Now we plug it into Claude Code with one command and ask it to fix the worst FIXME.
+
+8
+00:07:00,000 --> 00:07:35,000
+The first time I built this it did not work at all, because I used console.log. In a stdio server, standard output is the conversation.
+
+9
+00:07:40,000 --> 00:08:05,000
+That's MCP: a standard plug, three building blocks, and a hundred lines to build your own.

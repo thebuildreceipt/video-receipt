@@ -1,0 +1,23 @@
+{
+  "name": "video-receipt",
+  "version": "1.0.0",
+  "description": "Turn a video transcript (.srt) into titles, description, chapters, Shorts cuts and a newsletter draft with Claude, plus a cost receipt.",
+  "type": "module",
+  "bin": {
+    "video-receipt": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "demo": "npm run build && node dist/src/cli.js examples/mcp-explained.srt --dry-run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}

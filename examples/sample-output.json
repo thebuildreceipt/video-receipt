@@ -1,0 +1,35 @@
+{
+  "titles": [
+    "MCP Explained in 8 Minutes (Build Your First Server)",
+    "I Built an MCP Server in 100 Lines. Here's How MCP Works.",
+    "What Is MCP? The 8-Minute Developer Guide",
+    "Give Any AI Access to Your Code With MCP",
+    "MCP in 8 Minutes: From Zero to a Working Server",
+    "Stop Copy-Pasting Code Into AI. Use MCP.",
+    "Model Context Protocol Explained Simply",
+    "The 100-Line MCP Server Every Developer Should Build",
+    "MCP: Tools, Resources and Prompts Explained",
+    "The console.log Mistake That Breaks MCP Servers"
+  ],
+  "description": "MCP (Model Context Protocol) explained in 8 minutes. We build a real MCP server in about 100 lines of TypeScript that lets Claude find and fix TODOs and FIXMEs in your codebase, and cover the one mistake that silently breaks stdio servers.",
+  "chapters": [
+    { "seconds": 0, "title": "The result" },
+    { "seconds": 25, "title": "The problem MCP solves" },
+    { "seconds": 80, "title": "MCP in one diagram" },
+    { "seconds": 160, "title": "Tools, resources and prompts" },
+    { "seconds": 210, "title": "Build the server" },
+    { "seconds": 370, "title": "Connect it to Claude Code" },
+    { "seconds": 420, "title": "The mistake that breaks everything" },
+    { "seconds": 460, "title": "Recap" }
+  ],
+  "shorts": [
+    { "start_seconds": 80, "end_seconds": 115, "hook": "MCP is USB-C for AI" },
+    { "start_seconds": 420, "end_seconds": 455, "hook": "Never console.log in an MCP server" },
+    { "start_seconds": 0, "end_seconds": 25, "hook": "My AI found 4 bugs in my code" }
+  ],
+  "tags": ["MCP", "Model Context Protocol", "Claude Code", "AI agents", "MCP server", "TypeScript", "AI coding", "developer tools"],
+  "newsletter": {
+    "subject": "I gave my AI a tool, and it fixed my code",
+    "body": "This week I built a 100-line MCP server that lets any AI assistant find TODOs and FIXMEs in a codebase. The video explains MCP in one diagram, walks through the build, and shows the one mistake that breaks stdio servers. The repo is free to copy."
+  }
+}
